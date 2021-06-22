@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background: rgba(10, 15, 31, 0.562); */
+}
+.profile_div{
+    height: 140px;
+    width: 100%;
+    padding: 50px 0px 0px 10px;
+    display: inline-block;
+    position: relative;
+    background: rgba(0, 174, 255, 0.281);
+    border-block-end: 1px solid rgb(0, 110, 255);
+    background: url("Cover1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+    /* transform: rotate(180deg); */
+
+}
+.profile_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: rgba(241, 239, 239, 0.979);
+    margin-top: 3px;
+    margin-left: 30px;
+    border: 2px solid white;
+}
+#profile_name{
+    height: 50px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    margin-top: -60px;    
+    margin-left: 200px;
+    
+}
+.pp_update{
+    float: right;
+    background: rgb(4, 59, 211);
+    padding: 5px 3px 5px 3px;
+    margin-top: -65px;
+    margin-right: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: rgb(170, 158, 143)
+}
+
+.pp_update:hover{
+    cursor: pointer;
+    color: white;
+    /* border: 1px solid rgb(182, 182, 182); */
+}
+.profile_border{
+    height: 44px;
+    width: 100%;
+    background: rgb(247, 247, 247);
+}
+#pr_det{
+    color: rgba(26, 75, 207, 0.808);
+    font-size:16px;
+    float: right; 
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 12px;
+    background: rgba(255, 0, 0, 0);
+}
+.profile_info{
+    margin: 10px;
+    border-top: 5px solid rgba(71, 38, 161, 0.829);
+    padding: 30px;
+    /* color: red; */
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.profile_save{
+    margin-top: 200px;
+    margin-right: -o100px;
+    background: red;
+}
+input[name=save]{
+background: red;
+color: #dddddd;
+/* margin-left: 50px; */
+margin-top: -50px;
+margin-right: -50px;
+}

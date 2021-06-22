@@ -1,0 +1,52 @@
+
+  .button.reply  {
+     
+    background-color: #00b6bd;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-left:  20px;
+    margin-top:  -10px;
+    opacity: .6;
+    transition: 0.3s;
+    /* display: inline-block; */
+    text-decoration: none;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .button:hover {opacity: 1}
+
+  .file_name
+  {
+    width: 220px;
+    height: 30px;
+    margin: 10px 0px 0px 20px;
+    padding: 5px 0 0 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:  rgb(74, 154, 179);;
+  }
+  .file_name:hover
+  {
+    transition:.25s;
+    background-color: rgb(218, 45, 45);
+  }
+  .file_name a{
+    text-decoration: none;
+    font-size: 15px;
+    background: #00b7bd00;
+  }
+  .file_name a:hover{
+    font-size: 15px;
+    color: white;
+  }
+  span
+  {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #f7ffffab;
+  }

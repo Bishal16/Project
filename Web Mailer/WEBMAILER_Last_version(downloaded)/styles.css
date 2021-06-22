@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+body {
+    background-image: url("bg3.png");
+    background-size: cover;
+    background-color: rgba(248, 248, 248, 0.411);
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+#header{
+    display: inline;
+    width: 100%;
+    height: 64px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    /* color: rgb(252, 5, 5); */
+    background-color: rgba(255, 255, 255, 0.219);
+    position: fixed;
+    text-shadow: 1,1,1;
+}
+
+
+#header h1
+{
+    width: 230px;
+    padding-top: 12px;
+    color: rgba(248, 248, 248, 0.849);
+    background-color: rgba(255, 255, 255, 0);
+    font-family: cursive;
+    font-size: 40px;
+    text-shadow: 1,1,1;
+    position: relative;
+}
+.profile_icon
+{
+    height: 50px;
+    width: 50px;
+   
+    padding:-2px;
+    border: 1px solid rgba(255, 255, 255, 0.503);
+    border-radius: 50%;
+    background: url("profile.png");
+    background-color: rgba(240, 248, 255, 0.301);
+    background-repeat: no-repeat;
+    background-size: 55px 55px;
+    background-position-y: -2px;
+    background-position-x: -3px;
+    background-origin: content-box;
+    float:right;
+    margin-right: 240px;
+    position: relative;
+    outline: none;
+    margin-top: -50px; background-position-y: -1px;
+}
+.profile_icon:hover
+{
+    transition: 400ms;
+    /* /background-size: 55px 55px; */
+   cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.201);
+    border: 1px solid rgba(255, 255, 255, 0.403);
+
+}
+.ppp 
+{
+    margin-top: -40px;
+    padding-bottom: 0px;
+    margin-right: 25px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0);
+    color: rgb(7, 1, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    float: right;
+    color: aliceblue;
+    position: relative;
+}
+
+#main_div {
+    width: 100%;
+    display: inline-block;
+    /* position: fixed; */
+    margin-top: 64px;
+    background-color: rgba(255, 255, 255, 0.219);
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 160px;
+    height: 510px;
+    background-color: rgba(194, 21, 21, 0);
+    position: fixed; 
+    overflow: hidden;
+}
+
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 20px 10px 20px;
+    background: rgba(143, 131, 167, 0);
+    color: rgb(209, 209, 209);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* margin: 5px 0px 5px 0px; */
+}
+
+
+.active {
+    background:  rgba(109, 64, 192, 0.89);
+    border-left: 4px solid rgba(55, 27, 133, 0.842);
+    color: white;
+    font-size: 16px;
+    
+    /* box-shadow:  inset 0px 0px 13px 0px rgba(224, 114, 40, 0.959); */
+}
+
+div ul li {
+    background: rgba(255, 255, 255, 0.445);
+    /* color: red; */
+}
+
+div .main_body {
+    background: rgba(243, 241, 241, 0.767);
+    background-size: contain;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    height: 586px;
+    overflow: scroll;
+    /* position: relative; */
+    border-radius: 9px;
+    display: block;
+}
+
+form{
+    background: rgba(255, 255, 255, 0);
+}
+input {
+    display: block;
+    margin-left: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.from {
+    border: none;
+    border-radius: 10px; 
+    border-bottom: 1px solid rgba(65, 70, 71, 0.699);
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    margin-top: 15px;
+}
+
+input:hover {
+    /* border: 1px solid rgba(212, 113, 47, 0.596); */
+    box-shadow: 0px 0px 10px rgba(92, 45, 179, 0.692);
+
+}
+
+.massage {
+    border: 1px solid rgba(65, 70, 71, 0.699);
+    width: 90%;
+    padding: 10px;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    height: 280px;
+    outline: none;
+}
+.massage:hover{
+    border: 1px solid rgba(212, 113, 47, 0.596);
+    box-shadow: 0px 0px 10px rgba(235, 123, 49, 0.637);
+}
+
+input[type='submit'],input[type='button'] {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(90, 156, 199);
+    border-radius: 5px;
+    margin-top: -40px;
+    margin-bottom: 6px;
+    margin-left: 85%;
+    border: none;
+}
+
+input[type='submit']:hover,input[type='button']:hover{
+    background-color: rgb(77, 8, 168);
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow:   0px 0px 13px 0px rgba(16, 77, 146, 0.959);
+
+}
+
+
+
+li a :not(.active):hover {
+    background:  rgba(109, 64, 192, 0.89);
+    border-left: 4px solid rgb(255, 187, 0);
+}
+
+.sidebar {
+    background: rgba(255, 255, 255, 0);
+}
+
+
+.msg_header{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgba(53, 53, 53, 0.897);
+    border-radius:  5px ;
+}
+
+.msg_body{
+    background: rgba(255, 255, 255, 0.767);
+    font: 19px;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border: 1px solid rgba(53, 53, 53, 0.897);
+    border-radius:  5px ;;
+    
+}
+
+
+ .title{
+    width: 90%;
+    float:left;
+    text-decoration: none;
+    padding-top: 13px;
+    padding-left: 50px;
+    background: rgba(8, 4, 4, 0);
+    color: rgba(3, 3, 3, 0.815);
+    /* text-align: center; */
+    font-size: 18px;
+     border-radius: 15px; 
+
+
+}
+ .inbox{
+    
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(94, 75, 177);
+    text-decoration: none;
+    background: rgba(8, 4, 4, 0);
+    color: rgba(0, 0, 0, 0.815);   
+    font-size: 16px;
+    outline: none;
+}
+.inbox:hover
+{
+    color: aliceblue;
+    box-shadow: 0 -2px 25px 2px grey;
+    border: rgba(238, 238, 238, 0);
+    border-radius: 3px;
+    background-color: rgb(238, 236, 236);
+    -webkit-transition: background-color 600ms linear;
+    -ms-transition: background-color 600ms linear;
+    transition: background-color 600ms linear;
+    transition: box-shadow 1000ms;
+}
+.del_button{
+    
+    border: none;
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+    border-radius: 50%;
+    background: url("del1.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-origin: content-box
+    /* background-color: rebeccapurple; */
+    
+}
+
+.del_button:hover
+{
+    border: none;
+    background: url("40PX.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-origin: content-box
+
+}
+li a:hover{
+    background: rgba(97, 91, 180, 0.596);
+    color: aliceblue;
+}
+#attach{
+    padding: 5px 5px 5px 10px;
+    margin: 8px 20px 5px 20px;
+    background-color: rgba(9, 125, 219, 0.719);
+    border-radius: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.file_input{
+    height: 20px;
+    padding: 5px;
+    font-weight: 100px;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: rgb(18, 36, 36);
+    outline: none;
+}
+
+
+  .draft_button {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    margin-left: 20px;
+    border: none;
+}
+.draft_button:hover{
+    border:1px solid black;
+}
+/* search */
+input[name=search]{
+   margin: 0px 10px 10px 20px;;
+   padding: 4px;
+   border-radius: 5px;
+   width: 150px
+    
+}
+input[name=searchbtn]{
+    height: 25px;
+    width: 50px;
+    padding-left: 5px;
+    background: rgb(62, 17, 121);
+    color: aliceblue;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 190px;
+    margin-bottom: 0px;
+}
